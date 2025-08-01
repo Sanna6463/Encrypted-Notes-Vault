@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Encrypted Notes Vault</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Encrypted Notes Vault</h1>
+
+    <textarea id="note" placeholder="Write your note here..."></textarea>
+    
+    <input type="password" id="password" placeholder="Enter password">
+
+    <div class="buttons">
+      <button onclick="encryptNote()">Encrypt</button>
+      <button onclick="decryptNote()">Decrypt</button>
+    </div>
+
+    <p id="output"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
